@@ -65,11 +65,9 @@ body {
   line-height: 1.17;
 }
 
-.header-list {
+.header-link {
   color: var(--title-text-color);
 }
-/* .header-nav .link {
-} */
 
 .header .link.current {
   color: var(--accent-color);
