@@ -97,6 +97,7 @@ body {
 .hero-btn {
   text-align: center;
 
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -137,19 +138,24 @@ body {
 }
 
 .teams-title {
-  color: var(--title-text-color);
-}
-
-.teams {
   text-align: center;
 
-  font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
+  font-weight: 500;
+
+  color: var(--title-text-color);
 }
 
 .teams-text {
+  text-align: center;
+
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  font-weight: 400;
+
   color: var(--primary-text-color);
 }
 
@@ -198,6 +204,7 @@ body {
 .portfolio-btn {
   text-align: center;
 
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
